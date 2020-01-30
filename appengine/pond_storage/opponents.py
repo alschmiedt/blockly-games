@@ -143,8 +143,6 @@ def get_better_entry(user_entry, opponent_entries, leaderboard_size):
   # Better entry not found.
   return None
 
-<<<<<<< HEAD
-=======
 def entries_to_duck_info(entries):
   """Returns a list of extracted duck info.
   Args:
@@ -176,7 +174,6 @@ def entries_to_duck_info(entries):
     ducks.append(duck_info)
   return ducks
 
->>>>>>> 6303b8715c3f0d40bd3dae9255a7f4141603547b
 def get_opponents(user_entry, target_total):
   """Returns up to n optimal opponents for the provided entry.
 
